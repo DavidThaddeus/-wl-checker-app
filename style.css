@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(110, 110, 150);
+  position: relative;
+  padding-top: 300px;
+}
+
+#homePage {
+  position: absolute;
+  border: 3px solid #fff;
+  width: 900px;
+  margin-top: 200px;
+  text-align: center;
+  padding: 0 0 50px 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.welcome {
+  padding: 30px 0 0 0;
+  margin: 0 0 50px 0;
+  cursor: text;
+}
+
+.welcome h1 {
+  color: #ffffffce;
+  font-size: 35px;
+}
+
+.checkerInput {
+  width: 400px;
+  background-color: rgba(209, 207, 207, 0.692);
+  padding: 18px 0 18px 0;
+  margin: auto;
+  position: relative;
+  border: 1px solid #0000009f;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.checkerInput::placeholder {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.checkerInput {
+  color: #000000af;
+  font-size: 19px;
+}
+
+.resultOutput {
+  width: 700px;
+  background-color: rgba(209, 207, 207, 0.692);
+  padding: 25px 0 20px 0;
+  margin: auto;
+  position: relative;
+  border: 1px solid #0000009f;
+  border-radius: 5px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.check {
+  width: 200px;
+  background-color: rgba(209, 207, 207, 0.692);
+  padding: 10px 0 10px 0;
+  margin: auto;
+  position: relative;
+  border: 1px solid #0000009f;
+  border-radius: 1px;
+}
+
+.check p {
+  color: #1a1818f5;
+  font-size: 19px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.totalWLText {
+  color: #000000c2;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
