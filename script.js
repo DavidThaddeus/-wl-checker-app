@@ -13,6 +13,10 @@ check.addEventListener("click", function () {
     output.innerHTML = `Congrats! Your address ${address.innerText} is whitelisted`;
   } else if (address.innerText === String("0x8902768g782a")) {
     output.innerHTML = `Congrats! Your address ${address.innerText} is whitelisted`;
+  } else if (
+    address.innerText === String("0xeF0841b652c0C718d472571C9899560aEe3ca492")
+  ) {
+    output.innerHTML = `Congrats! Your address ${address.innerText} is whitelisted`;
   } else {
     output.innerHTML = `Oops! the address you entered isn't whitelisted, please recheck it`;
   }

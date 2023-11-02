@@ -34,7 +34,7 @@ body {
 }
 
 .checkerInput {
-  width: 400px;
+  width: 450px;
   background-color: rgba(209, 207, 207, 0.692);
   padding: 18px 0 18px 0;
   margin: auto;
@@ -89,4 +89,42 @@ body {
   color: #000000c2;
   font-size: 19px;
   letter-spacing: 1px;
+}
+
+@media (max-width: 991px) {
+  #homePage {
+    width: 700px;
+  }
+
+  .welcome h1 {
+    font-size: 30px;
+  }
+
+  .resultOutput {
+    width: 600px;
+  }
+}
+
+@media (max-width: 669px) {
+  #homePage {
+    width: 500px;
+  }
+
+  .resultOutput {
+    width: 450px;
+  }
+
+  .welcome h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 453px) {
+  #homePage {
+    width: 400px;
+  }
+
+  .checkerInput {
+    width: 380px;
+  }
 }
